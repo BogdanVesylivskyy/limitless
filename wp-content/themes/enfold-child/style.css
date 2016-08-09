@@ -1,0 +1,391 @@
+/*
+Theme Name: LIMITLESS
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the LIMITLESS Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating wil be much easier then.
+Version: 1.0
+Author: Bogdan Vesylivskyy
+Author URI: http://vesylivskyy.xyz
+Template: enfold
+*/
+
+
+
+/*Add your own styles here:*/
+
+#top #header_main > .container, #top #header_main > .container .main_menu ul:first-child > li > a, #top #header_main #menu-item-shop .cart_dropdown_link, .menu-footer-menu-container li a {
+	text-transform: uppercase;
+}
+
+.main_menu li.current-menu-item a {
+	color: #cf9f51;
+}
+
+#top.home #header {
+	border-bottom: none!important;
+}
+
+#top.home #header .main_menu li a{
+	color: #ffffff!important;
+}
+
+#top.home #header .main_menu li a:hover{
+	color: #cf9f51!important;
+	-webkit-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.8s ease-in-out;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.8s ease-in-out;
+}
+
+#top.home #main .avia-image-container-inner {
+    margin-bottom: 115px!important;
+}
+
+#header {
+	border-bottom: 1px solid #cf9f51;
+}
+
+body div .avia-button {
+	border-radius: 0px;
+}
+
+#avia_mailchimp_widget-2 input::-webkit-input-placeholder {
+   color: #cf9f51;
+}
+#avia_mailchimp_widget-2 input:-moz-placeholder { 
+   color: #cf9f51;  
+}
+#avia_mailchimp_widget-2 input::-moz-placeholder { 
+   color: #cf9f51;  
+}
+#avia_mailchimp_widget-2 input:-ms-input-placeholder {  
+   color: #cf9f51;  
+}
+
+#top div .av-dark-form h3 {
+	font-size: 20px!important;
+	color: #cf9f51;
+	margin-bottom: 60px;
+	font-weight: 400!important;
+}
+
+#top .main_color textarea, #top .main_color input[type='text'], #top div .av-dark-form .input-text, #top div .av-dark-form input[type='text'], #top div .av-dark-form input[type='input'], #top div .av-dark-form input[type='password'], #top div .av-dark-form input[type='email'], #top div .av-dark-form input[type='number'], #top div .av-dark-form input[type='url'], #top div .av-dark-form input[type='tel'], #top div .av-dark-form input[type='search'], #top div .av-dark-form textarea, #top div .av-dark-form select, div div .av-dark-form .button {
+    color: #dddddd;
+	font-size: 14px!important;
+    border-color: #cf9f51;
+    border-width: 1px !important;
+    background-color: transparent;
+	border-radius: 0px;
+	padding: 15px;
+}
+
+#top div .av-dark-form input.button, .main_color #submit {
+	background-color: #cf9f51;
+	border-color: #cf9f51;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0 auto;
+    display: block;
+}
+
+#top div .av-dark-form input.button:hover, .comment_container input#submit:hover {
+	color: #000!important;
+}
+
+p.comment-form-comment.col-md-6 {
+	width: 49%;
+	float: right;
+}
+
+.comment_container textarea {
+		margin-bottom: 10px!important;
+	}
+
+#comment {height: 124px;}
+
+
+p.comment-form-author, p.comment-form-email {
+	width: 49%!important;
+	display: inline-block;
+	float: left;
+	
+}
+
+.comment_container input {
+	height: 52px;
+	width: 100%!important;
+	display: inline-block!important;
+	margin-bottom: 10px!important;
+}
+
+.comment_container input#submit {
+	height: 52px;
+	width: 180px!important;
+	float: right;
+}
+
+p.form-submit {
+	width: 100%;
+	display: block!important;
+}
+
+.main_color .comment-count {
+	background-color: #c89e4c;
+    color: #ffffff;
+    border-color: #c89e4c;
+	width: 100%;
+    border-radius: 0px;
+	padding: 0px 20px;
+	text-align: left;
+}
+
+.main_color .comment-count strong {
+	padding-left: 10px;
+	color: #fff;
+}
+
+
+.comment_container input#submit {
+	background-color: #cf9f51;
+	border-color: #cf9f51;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.comment_container-main h3, .comment_container-main .minitext  {display: none;}
+
+    
+
+div#line-bg>.container{
+	background-repeat: no-repeat;
+    background-image: url(http://dev.ergonized.com/bogdan_vesylivskyy/limitless/wp-content/uploads/2016/08/line-bg.png);
+    background-attachment: scroll;
+    background-position: 115px 115px!important;
+    background-size: 80%;
+}
+
+#top .av_inherit_color a:hover {
+	text-decoration: underline!important;
+}
+
+#top #main .single-product-main-image .sidebar, #top #main .single-product-main-image .inner_sidebar { display: none!important; }
+#top .av_inherit_color a {text-decoration: none!important;}
+
+
+
+/*product*/
+
+
+#top .thumbnail_container img {
+	min-height: 280px!important;
+}
+
+#top .thumbnail_container img, #top .product div.images img {
+	width: auto!important;
+	margin: 0 auto!important;
+}
+
+#top .avia_cart_buttons .show_details_button {
+    display: none !important;
+}
+
+#top .avia_cart_buttons .button-mini-delimiter {
+    display: none !important;
+}
+
+#top .avia_cart_buttons .add_to_cart_button {
+    width: 100% !important;
+}
+
+.products .inner_product_header_table h3 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 19px!important;
+}
+
+.products .inner_product_header_table .price {
+	display: block;
+    margin: 0 auto;
+	font-size: 24px;
+	color: #000000!important;
+	margin: 0 auto;
+    display: block!important;
+    text-align: center;
+}
+
+#top .inner_product_header {
+	padding: 10px 0px 0px!important;
+}
+
+.products .avia_cart_buttons {
+	opacity: 1;
+}
+
+.products .avia_cart_buttons a:hover {
+	color: #cf9f51!important;
+}
+
+#top .main_color  .avia_cart_buttons .button {
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 15px 10px;
+    border: 2px solid #cf9f51;
+}
+
+.main_color .products .avia_cart_buttons {
+	max-width: 220px!important;
+	margin: 0 auto;
+}
+
+.main_color .products .avia_cart_buttons, #top .products .inner_product_header, .products .thumbnail_container {
+	border: none!important;
+	background-color: #fbfbfb;
+}
+
+#top .avia_cart_buttons .button > span, .products .inner_product_header .avia-arrow {
+	display: none!important;
+}
+
+.products  li>div {
+	border: none!important;
+	background-color: #fbfbfb;
+}
+
+
+#blog-template-main .big-preview.single-big, #blog-template-main img.attachment-large.size-large.wp-post-image, #blog-template-main span.blog-categories.minor-meta {
+    display: none;
+}
+
+#blog-template-main h2.post-title.entry-title {
+    font-size: 24px!important;
+    color: #cf9f51;
+    text-transform: uppercase!important;
+}
+
+#blog-template-main .entry-content {
+    font-size: 14px!important;
+    color: #000000;
+	line-height: 30px;
+}
+
+#blog-template-main .main_color .minor-meta, #top .fullsize .flex_column .template-blog .post-title, #top .fullsize .flex_column .template-blog .post-meta-infos {
+	color: #cf9f51!important;
+	font-size: 14px!important;
+} 
+
+#blog-template-main .read-more-link {
+	color: #cf9f51;
+	font-size: 14px!important;
+	text-transform: uppercase!important;
+}
+
+/*#blog-template-main .flex_column.av_one_half {
+	position: relative;
+}
+
+#blog-template-main .template-blog {
+	position: absolute;
+	width: 100%;
+}
+
+#blog-template-main header.entry-content-header {
+	padding-top: 50px;
+}*/
+
+/*
+@media (min-width: 1090px) {
+	div#line-bg {
+		background-position: center 110px!important;
+	}
+}
+
+@media (min-width: 1050px) and (max-width: 1089px) { 
+	div#line-bg {
+		background-position: 65px 100px!important;
+	}
+}
+
+@media (min-width: 990px) and (max-width: 1049px) { 
+	div#line-bg {
+		background-position: 65px 100px!important;
+	}
+}*/
+
+@media (max-width: 989px) {
+	div#line-bg, div#line-bg>.container {
+		background: none!important;
+	}
+}
+
+@media (max-width: 767px) {
+	#contact-form-main .flex_column_div.first, #contact-form-main .flex_column.av_one_half, #blog-main .flex_column_div.first, #blog-main .flex_column.av_one_half, #blog-main .av_one_full, #padding-null .flex_column, #blog-main .flex_column_div.first {
+		padding: 0px!important;
+	}
+	
+	p.comment-form-comment.col-md-6, p.comment-form-author, p.comment-form-email {
+		width: 100%!important;
+	}
+}
+
+
+
+#social-icons  .avia_textblock   {
+	width: 245px;
+    margin: 0 auto;
+}
+
+#social-icons  #custom_links ul {
+	margin: 0 auto;
+}
+
+#social-icons  #custom_links li {
+	width: 50px;
+	    border-right-width: 0px;
+}
+
+#social-icons  #custom_links li a {
+    background: #ffffff!important;
+    color: #221f1f;
+	border: 2px solid #221f1f;
+	border-radius: 20px;
+	width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 37px;
+}
+
+#social-icons  #custom_links li a:hover {
+    background: #cf9f51!important;
+	color: #ffffff!important;
+}
+
+
+
+
+
+
+
+#footer {
+	padding: 15px 0 15px 0;
+	border: none;
+}
+
+#footer .flex_column.first #text-2, #footer .flex_column.first #text-2 h3 {
+	color: #ffffff;
+}
+
+#footer .flex_column.first #text-2 h3 {
+	padding-top: 45px;
+}
+
+#footer .flex_column.first #text-2 img {
+	margin-right: 50px;
+    float: left;
+}
+
+#footer .el_after_av_one_half {
+	background: #383535 url(http://dev.ergonized.com/bogdan_vesylivskyy/limitless/wp-content/uploads/2016/08/footer-bg-img.png) center right no-repeat scroll;
+	background-size: 90%;
+}
+
+
