@@ -11,7 +11,9 @@ Template: enfold
 
 /*Add your own styles here:*/
 
-body{color: red;}
+.main_menu li.current-menu-item a {
+	color: #020202;
+}
 
 #top #header_main > .container, #top #header_main > .container .main_menu ul:first-child > li > a, #top #header_main #menu-item-shop .cart_dropdown_link, .menu-footer-menu-container li a {
 	text-transform: uppercase;
